@@ -1,3 +1,25 @@
+Mastermind
+
+Project description:
+
+Mastermind game is a game where a player has to guess the color pattern consisting of four out of five or six different colors within eight to twelve turns, The number of possible colors and the number of
+colors in a pattern can vary depending on the game variations: Each turn player tries to guess the pattern by choosing color pegs and putting them in some order. At the end of the turn, the player receives some hints in the form of a key or hint pegs. For each correctly guessed color and its position, the player gets a hint peg in a certain color (for example green), and for each guessed color but in a wrong position, the player gets a hint peg in some other color (for example yellow). On the next turn, the player should take previous guesses and hints into consideration; The game ends when the player guesses the color pattern correctly, which counts as a win, or when the last turn is reached without correctly guessing the color pattern, which counts as a defeat.
+
+Project features:
+
+-Game.js: Contains main logic
+-Row.js: Contains roe logic, peg and circle import
+-Cricle.js: Contains Circle and Peg
+-Peg.js: Contains Peg logic
+-Rules.js: Contains Rules logic
+-Colors.js: Contains Colors logic
+-Board.js: Contains Board logic
+-index.css: Contains all CSS of the project which is responsive to Tablet and Desktop
+
+Built with:
+
+-HTML -CSS -JS -React JS
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
